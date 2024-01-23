@@ -135,12 +135,12 @@ global.fb = "https://www.instagram.com/optimus.ventas.bot"
 global.tk = "https://www.instagram.com/optimus.ventas.bot"
 global.ths = "https://www.instagram.com/optimus.ventas.bot"
 global.paypal = 'https://www.instagram.com/optimus.ventas.bot'
-global.asistencia = 'https://wa.me/51926933818' //Contacto
+global.asistencia = 'https://chat.whatsapp.com/HpujP99qhL6G9vI2SXSSa1' //Contacto
 
-global.nna = 'https://chat.whatsapp.com/FlSQ9PkM8lB5YPRv73ZbQ3' // CANAL UPDATE
+global.nna = 'https://chat.whatsapp.com/HpujP99qhL6G9vI2SXSSa1' // CANAL UPDATE
 global.nn2 = 'https://www.instagram.com/optimus.ventas.bot' // CANAL GataBot
 global.nna2 = 'https://www.instagram.com/optimus.ventas.bot' // Help
-global.nn = 'https://chat.whatsapp.com/FlSQ9PkM8lB5YPRv73ZbQ3' // Grupo 1
+global.nn = 'https://chat.whatsapp.com/HpujP99qhL6G9vI2SXSSa1' // Grupo 1
 global.nnn = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 2
 global.nnnt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 3
 global.nnntt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 4
