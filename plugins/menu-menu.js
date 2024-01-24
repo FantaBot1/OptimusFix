@@ -87,11 +87,11 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
 
 *╔══ ≪ Owner ≫ ══╗*
-║👤 Creador : Cristhofer
-║📱 Numero ; +51 902 360 712
-║🤑 Adquirir : +51 902 360 712
-║👻 Ig : ${md}
-║💻 Grupo : ${nna}
+*║* 👤 Creador : Cristhofer
+*║* 📱 Numero ; +51 926 933 818
+*║* 🤑 Adquirir : +51 926 933 818
+*║* 👻 Ig : ${md}
+*║* 💻 Grupo : ${nna}
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╭━〔 INFORMACIÓN DE OWNER 〕⬣*
