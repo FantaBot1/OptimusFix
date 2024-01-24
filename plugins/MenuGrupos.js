@@ -19,51 +19,49 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
-*« Menu Grupos »*
- 
-◤━━━━━━━━━━━━━━◥
-┃🌐➺ _${usedPrefix}crearvoto | startvoto *texto*_
-┃🌐➺ _${usedPrefix}sivotar | upvote_
-┃🌐➺ _${usedPrefix}novotar | devote_
-┃🌐➺ _${usedPrefix}vervotos | cekvoto_
-┃🌐➺ _${usedPrefix}delvoto | deletevoto_
-┃🌐➺ _${usedPrefix}configuracion_
-┃🌐➺ _${usedPrefix}settings_
-┃🌐➺ _${usedPrefix}vergrupo_
-┃🌐➺ _${usedPrefix}add *numero*_
-┃🌐➺ _${usedPrefix}sacar | ban | kick  *@tag*_
-┃🌐➺ _${usedPrefix}grupo *abrir : cerrar*_
-┃🌐➺ _${usedPrefix}group *open : close*_
-┃🌐➺ _${usedPrefix}daradmin | promote *@tag*_
-┃🌐➺ _${usedPrefix}quitar | demote *@tag*_
-┃🌐➺ _${usedPrefix}banchat_
-┃🌐➺ _${usedPrefix}unbanchat_
-┃🌐➺ _${usedPrefix}banuser *@tag*_
-┃🌐➺ _${usedPrefix}unbanuser *@tag*_
-┃🌐➺ _${usedPrefix}admins *texto*_
-┃🌐➺ _${usedPrefix}invocar *texto*_
-┃🌐➺ _${usedPrefix}tagall *texto*_
-┃🌐➺ _${usedPrefix}hidetag *texto*_
-┃🌐➺ _${usedPrefix}infogrupo | infogroup_
-┃🌐➺ _${usedPrefix}grupotiempo | grouptime *Cantidad*_
-┃🌐➺ _${usedPrefix}advertencia *@tag*_
-┃🌐➺ _${usedPrefix}deladvertencia *@tag*_
-┃🌐➺ _${usedPrefix}delwarn *@tag*_
-┃🌐➺ _${usedPrefix}crearvoto | startvoto *texto*_
-┃🌐➺ _${usedPrefix}sivotar | upvote_
-┃🌐➺ _${usedPrefix}novotar | devote_
-┃🌐➺ _${usedPrefix}vervotos | cekvoto_
-┃🌐➺ _${usedPrefix}delvoto | deletevoto_
-┃🌐➺ _${usedPrefix}enlace | link_
-┃🌐➺ _${usedPrefix}join | *link*_
-┃🌐➺ _${usedPrefix}newnombre | nuevonombre *texto*_
-┃🌐➺ _${usedPrefix}newdesc | descripcion *texto*_
-┃🌐➺ _${usedPrefix}setwelcome | bienvenida *texto*_
-┃🌐➺ _${usedPrefix}setbye | despedida *texto*_
-┃🌐➺ _${usedPrefix}nuevoenlace | resetlink_
-┃🌐➺ _${usedPrefix}on_
-┃🌐➺ _${usedPrefix}off_
-◣━━━━━━━━━━━━━━◢`.trim();
+*╔══ ≪ CONFI GRUPOS ≫ ══╗*
+*║* 🌐➺ _${usedPrefix}crearvoto | startvoto *texto*_
+*║* 🌐➺ _${usedPrefix}sivotar | upvote_
+*║* 🌐➺ _${usedPrefix}novotar | devote_
+*║* 🌐➺ _${usedPrefix}vervotos | cekvoto_
+*║* 🌐➺ _${usedPrefix}delvoto | deletevoto_
+*║* 🌐➺ _${usedPrefix}configuracion_
+*║* 🌐➺ _${usedPrefix}settings_
+*║* 🌐➺ _${usedPrefix}vergrupo_
+*║* 🌐➺ _${usedPrefix}add *numero*_
+*║* 🌐➺ _${usedPrefix}sacar | ban | kick  *@tag*_
+*║* 🌐➺ _${usedPrefix}grupo *abrir : cerrar*_
+*║* 🌐➺ _${usedPrefix}group *open : close*_
+*║* 🌐➺ _${usedPrefix}daradmin | promote *@tag*_
+*║* 🌐➺ _${usedPrefix}quitar | demote *@tag*_
+*║* 🌐➺ _${usedPrefix}banchat_
+*║* 🌐➺ _${usedPrefix}unbanchat_
+*║* 🌐➺ _${usedPrefix}banuser *@tag*_
+*║* 🌐➺ _${usedPrefix}unbanuser *@tag*_
+*║* 🌐➺ _${usedPrefix}admins *texto*_
+*║* 🌐➺ _${usedPrefix}invocar *texto*_
+*║* 🌐➺ _${usedPrefix}tagall *texto*_
+*║* 🌐➺ _${usedPrefix}hidetag *texto*_
+*║* 🌐➺ _${usedPrefix}infogrupo | infogroup_
+*║* 🌐➺ _${usedPrefix}grupotiempo | grouptime *Cantidad*_
+*║* 🌐➺ _${usedPrefix}advertencia *@tag*_
+*║* 🌐➺ _${usedPrefix}deladvertencia *@tag*_
+*║* 🌐➺ _${usedPrefix}delwarn *@tag*_
+*║* 🌐➺ _${usedPrefix}crearvoto | startvoto *texto*_
+*║* 🌐➺ _${usedPrefix}sivotar | upvote_
+*║* 🌐➺ _${usedPrefix}novotar | devote_
+*║* 🌐➺ _${usedPrefix}vervotos | cekvoto_
+*║* 🌐➺ _${usedPrefix}delvoto | deletevoto_
+*║* 🌐➺ _${usedPrefix}enlace | link_
+*║* 🌐➺ _${usedPrefix}join | *link*_
+*║* 🌐➺ _${usedPrefix}newnombre | nuevonombre *texto*_
+*║* 🌐➺ _${usedPrefix}newdesc | descripcion *texto*_
+*║* 🌐➺ _${usedPrefix}setwelcome | bienvenida *texto*_
+*║* 🌐➺ _${usedPrefix}setbye | despedida *texto*_
+*║* 🌐➺ _${usedPrefix}nuevoenlace | resetlink_
+*║* 🌐➺ _${usedPrefix}on_
+*║* 🌐➺ _${usedPrefix}off_
+*╚══ ≪ •❈• ≫ ══╝*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
