@@ -20,6 +20,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
 *╔══ ≪ DESCARGAS ≫ ══╗*
+*║* 🚀➺ _${usedPrefix}apkmod_
 *║* 🚀➺ _${usedPrefix}phsearch_
 *║* 🚀➺ _${usedPrefix}Plataformas_
 *║* 🚀➺ _${usedPrefix}cuevana  *textp*_
