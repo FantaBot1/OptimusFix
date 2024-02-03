@@ -4,9 +4,9 @@ const handler = async (m, {conn}) => {
 handler.command = /^(ComprarBot)$/i;
 export default handler;
 global.ComprarBot = `
-〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
+𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 
-*COMPRAR BOT OPTIMUS*
+*COMPRAR BOT HYDRA*
 
 *━━━━━━━━━━━━━⬣*
 *✅ METODO DIAMANTES*
