@@ -13,7 +13,7 @@ await conn.sendFile(m.chat, pp, 'gata.mp4', cat, fkontak)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
-handler.command = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i
+handler.command = /^(lideres|Lideres)$/i
 
 export default handler
  
