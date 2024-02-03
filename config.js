@@ -13,9 +13,11 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51926933818", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', true], //〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
-["525526591934"], 
-["5492996111177"]]
+["51926933818", '𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁', true], //𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
+["51978420752"], 
+["51980269579"],
+["573112811966"],
+["5492915139790"]]
 
 global.mods = []
 global.prems = []
@@ -39,7 +41,7 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 // English 👉 en
 global.lenguajeGB = es
 global.mid = enDefault
-global.version_language = '1.0 (MID-GB)'
+global.version_language = '1.0'
 
 // [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
 // [EN] > If "default_language" is empty, your default language will be Spanish or the language that each user has selected at the time of registration will be used.
@@ -104,11 +106,10 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51926933818", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1], 
-["51926933818", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1],  
-["51926933818", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1],
-["51926933818", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1],
-["51926933818", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1]]
+["51926933818", '𝗖𝗲𝗼 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1], 
+["51980269579", '𝗖𝗼 𝗖𝗲𝗼 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1],  
+["51978420752", '𝗖𝗼 𝗟𝗶𝗱𝗲𝗿 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1],
+["5492915139790", '𝗗𝗲𝗰𝗮𝗻𝗮 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -116,66 +117,65 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
-global.author = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
+global.packname = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
+global.author = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > CUENTAS E INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > ACCOUNTS AND BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
-global.vsJB = "2.5 (Beta)"
-global.gt = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
+global.vsJB = "2.5"
+global.gt = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
 
-global.yt = "https://www.instagram.com/optimus.ventas.bot"
-global.yt2 = "https://www.instagram.com/optimus.ventas.bot"
-global.ig = "https://www.instagram.com/optimus.ventas.bot"
-global.md = "https://www.instagram.com/optimus.ventas.bot"
-global.fb = "https://www.instagram.com/optimus.ventas.bot"
-global.tk = "https://www.instagram.com/optimus.ventas.bot"
-global.ths = "https://www.instagram.com/optimus.ventas.bot"
-global.paypal = 'https://www.instagram.com/optimus.ventas.bot'
-global.asistencia = 'https://chat.whatsapp.com/HpujP99qhL6G9vI2SXSSa1' //Contacto
+global.yt = "https://www.instagram.com/team.hydra.sur"
+global.yt2 = "https://www.instagram.com/team.hydra.sur"
+global.ig = "https://www.instagram.com/team.hydra.sur"
+global.md = "https://www.instagram.com/team.hydra.sur"
+global.fb = "https://www.instagram.com/team.hydra.sur"
+global.tk = "https://www.instagram.com/team.hydra.sur"
+global.ths = "https://www.instagram.com/team.hydra.sur"
+global.paypal = 'https://www.instagram.com/team.hydra.sur'
+global.asistencia = 'https://chat.whatsapp.com/I5fUSaJaTq07MUDpTA9fQE' //Contacto
 
-global.nna = 'https://chat.whatsapp.com/HpujP99qhL6G9vI2SXSSa1' // CANAL UPDATE
-global.nn2 = 'https://www.instagram.com/optimus.ventas.bot' // CANAL GataBot
-global.nna2 = 'https://www.instagram.com/optimus.ventas.bot' // Help
-global.nn = 'https://chat.whatsapp.com/HpujP99qhL6G9vI2SXSSa1' // Grupo 1
-global.nnn = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 2
-global.nnnt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 3
-global.nnntt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 4
-global.nnnttt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 5
-global.nnnttt1 = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 6 COL
-global.nnnttt2 = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 7 COL
-global.nnnttt3 = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 8 COL
-global.nnnttt4 = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 9 COL
-global.nnnttt5 = 'https://www.instagram.com/optimus.ventas.bot' // A.T.M.M
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+global.nna = 'https://chat.whatsapp.com/I5fUSaJaTq07MUDpTA9fQE' // CANAL UPDATE
+global.nn2 = 'https://www.instagram.com/team.hydra.sur' // CANAL GataBot
+global.nna2 = 'https://www.instagram.com/team.hydra.sur' // Help
+global.nn = 'https://chat.whatsapp.com/I5fUSaJaTq07MUDpTA9fQE' // Grupo 1
+global.nnn = 'https://www.instagram.com/team.hydra.sur' // Grupo 2
+global.nnnt = 'https://www.instagram.com/team.hydra.sur' // Grupo 3
+global.nnntt = 'https://www.instagram.com/team.hydra.sur' // Grupo 4
+global.nnnttt = 'https://www.instagram.com/team.hydra.sur' // Grupo 5
+global.nnnttt1 = 'https://www.instagram.com/team.hydra.sur' // Grupo 6 COL
+global.nnnttt2 = 'https://www.instagram.com/team.hydra.sur' // Grupo 7 COL
+global.nnnttt3 = 'https://www.instagram.com/team.hydra.sur' // Grupo 8 COL
+global.nnnttt4 = 'https://www.instagram.com/team.hydra.sur' // Grupo 9 COL
+global.nnnttt5 = 'https://www.instagram.com/team.hydra.sur' // A.T.M.M
 
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
+global.rg = ''
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
+global.ag = ''
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱⊱╮\n\n'
+global.iig = ''
 global.informacion = iig
 
-global.fg = '╰⊱❌⊱ *𝙁𝘼𝙇𝙇𝙊́ | 𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
+global.fg = ''
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
+global.mg = ''
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
+global.eeg = ''
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+global.eg = ''
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
-global.igfg = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
+global.wm = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
+global.igfg = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
