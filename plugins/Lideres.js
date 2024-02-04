@@ -3,10 +3,6 @@ const handler = async (m, {conn}) => {
 };
 handler.command = /^(Lideres|lideres)$/i;
 export default handler;
-handler.admin = true
-handler.group = true
-handler.botAdmin = true
-
 global.Lideres = `
 *Hola Si Deseas Hablarle A los Lideres Y Ceos Del Team Hydra Estos Son Sus Numeros :* 
 *1 :* +51 926 933 818 *Ceo Hydra*
