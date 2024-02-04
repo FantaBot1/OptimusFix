@@ -82,24 +82,24 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
+let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 
 *╔══ ≪ OWNER BOT ≫ ══╗*
 *║* 👤 Creador : Cristhofer
 *║* 📱 Numero ; +51 926 933 818
 *║* 🤑 Adquirir : +51 926 933 818
-*║* 👻 Ig : ${md}
+*║* 👻 Ig Team : ${md}
 *║* 💻 Tiempo Activo : ${uptime}
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ INFO BOT ≫ ══╗*
-*║* 💫➺ _${usedPrefix}cuentasbot_
+*║* 💫➺ _${usedPrefix}reclutamiento_
 *║* 💫➺ _${usedPrefix}gruposbot_
 *║* 💫➺ _${usedPrefix}estado_
 *║* 💫➺ _${usedPrefix}infobot_
 *║* 💫➺ _${usedPrefix}comprarbot_
 *║* 💫➺ _${usedPrefix}comprarbot2_
-*║* 💫➺ _${usedPrefix}creador_
+*║* 💫➺ _${usedPrefix}lideres_
 *║* 💫➺ _${usedPrefix}velocidad_
 *╚══ ≪ •❈• ≫ ══╝*
 
@@ -318,7 +318,7 @@ let menu = `〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
 *║* 💎➺ _${usedPrefix}deloptimuscoins *@tag*_
 *║* 💎➺ _${usedPrefix}deldiamantes *@tag*_
 *║* 💎➺ _${usedPrefix}reiniciar | restart_
-*║* 💎➺ _${usedPrefix}ctualizar | update_
+*║* 💎➺ _${usedPrefix}actualizar | update_
 *║* 💎➺ _${usedPrefix}addprem | +prem *@tag*_
 *║* 💎➺ _${usedPrefix}delprem | -prem *@tag*_
 *║* 💎➺ _${usedPrefix}listapremium | listprem_
