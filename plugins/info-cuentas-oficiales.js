@@ -1,15 +1,12 @@
 let media = './media/menus/Menuvid2.mp4'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let str = `
-
-*IG TEAM*
+let str = `*IG TEAM*
 *${md}*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 *GRUPO RECLUTAMIENTO DEL HYDRA*
 *${nna}*
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Si tienen dudas, sugerencias, o preguntas solo escriban por Instagram.*`
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 /*conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙂𝙧𝙪𝙥𝙤𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝙂𝙧𝙤𝙪𝙥𝙨 🔰', '.grupos'],
